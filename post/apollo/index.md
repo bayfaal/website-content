@@ -497,7 +497,7 @@ Given those 2 elements, the schema definition and the resolver, we initialize a 
 const server = new ApolloServer({ typeDefs, resolvers })
 ```
 
-We then call the listen() method on the sever object, and we listen for the promise to resolve, which indicates the server is ready:
+We then call the listen() method on the server object, and we listen for the promise to resolve, which indicates the server is ready:
 
 ```js
 server.listen().then(({ url }) => {
